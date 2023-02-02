@@ -296,10 +296,18 @@ width: 35px;
 border-radius: 50%;
 }
 
+.left-sidebar a{
+    margin-left: 10px;
+}
+.left-sidebar p{
+    margin-left: 20px;
+    font-size: 19px;
+    color:black;
+}
+
 .post-text{
     color: #0c0c0c;
     margin: 85px 0;
-    align-items:baseline;
     font-size: 19px;
     padding-left: 20px;
     margin-left: -185px;
@@ -310,18 +318,9 @@ border-radius: 50%;
     width: 400px;
     border-radius: 4px;
     margin-bottom: 5px;
-    margin-right: 20px;
-}
+    margin-right: 100px;
+    display: flex;
 
-.round-background {
-    background-color: #e0e0e0;
-    border-radius: 10px;
-    padding: 20px;
-    display: inline-block;
     
 }
-.post-text {
-    color: #0c0c0c;
-    font-size: 19px;
-    align-items: baseline;
-  }
+
